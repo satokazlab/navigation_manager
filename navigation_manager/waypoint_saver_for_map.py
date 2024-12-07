@@ -69,7 +69,7 @@ class PoseRecorder(Node):
                 str(self.gps_pose_enable_),
                 str(self.map_pose_enable_),
                 str(self.init_pose_pub_),
-                str(self.green_detection_)  # 新しく追加
+                str(self.green_detection_)  # green_detectionを追加
             ]
             self.poses.append(pose_data)
             print(f'Pose saved! ID: {self.pose_id}, Green Detection: {self.green_detection_}')
